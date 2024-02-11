@@ -1,0 +1,8 @@
+services:
+  loglog:
+    build: .
+    hostname: "loglog"
+    restart: always
+    tty: true
+    volumes:
+      - ..:/workspace
